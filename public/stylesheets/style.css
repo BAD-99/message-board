@@ -6,3 +6,17 @@ body {
 a {
   color: #00B7FF;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form *{
+  max-width: fit-content;
+}
+
+textarea{
+  max-width: 30rem;
+  min-height: 15rem;
+}

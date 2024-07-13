@@ -1,0 +1,8 @@
+extends layout 
+
+block content 
+    h1 Enter Message!
+    form(action="/new", method="post")
+        textarea(name="messageText")   
+        input(type="text", name="messageUser")
+        input(type="submit", value="Submit")
